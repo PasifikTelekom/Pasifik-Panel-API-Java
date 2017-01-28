@@ -137,13 +137,6 @@ public class PasifikAPI {
     }
     public String CallHistory (int i_account, String start_data, String end_date, String cli, String cld, int offset, int limit, String type)
     {
-       start_data="";
-       end_date="";
-       cli="";
-       cld="";
-       offset=0;
-       limit=0;
-       type="";
        HashMap <String,Object> dicto =new HashMap<>();
        dicto.put("i_account",  i_account);
        dicto.put("start_date", start_data);
