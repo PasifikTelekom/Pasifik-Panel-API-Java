@@ -49,7 +49,7 @@ TestCase test = new TestCase();
 ```
 
 
-To run code **Menu > Run Project ** or press **F6**.
+To run code **Menu > Run Project** or press **F6**.
 You will see the result on **output**.
 
 
