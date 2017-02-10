@@ -10,7 +10,7 @@ public class PasifikAPI {
     private final  String authorization;
     private final Boolean DEBUG;
     private final  String base_url;
-    public Boolean Is_Passed = true;
+    public Boolean Is_Passed = false;
     public PasifikAPI(String username, String password, String lang, Boolean DEBUG){
         String auth = username + ":" + password;
         this.authorization = new String(Base64.getEncoder().encode(auth.getBytes()));
@@ -62,6 +62,7 @@ public class PasifikAPI {
             while((line = br.readLine()) != null){
                 data += line;
             }
+            Is_Passed = true;
             os.close();
         }
         catch (IOException e){
