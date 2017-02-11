@@ -2,6 +2,10 @@
 This library package provides a variety systems, the simplest way to integrate Pasifik services with your system.
 
 ## Requirements
+Minimum requirements [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) because we are using 
+```java
+import java.util.Base64;
+```
 
 You should download [java-json.jar](http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm) to your library.
 
